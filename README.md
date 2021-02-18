@@ -36,6 +36,7 @@ The test_functions are:
 nullCoinList=['coin_a', 'coin_c', 'coin_b', 'coin_a', 'coin_b', 'coin_a', 'coin_a']
 ```
 the expected histogram should be drawn as 
+
 ------------ | -------------
 'coin_a' | 4
 'coin_b' | 2
