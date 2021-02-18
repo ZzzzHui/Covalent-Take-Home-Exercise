@@ -26,7 +26,8 @@ python3 -m unittest
 * nullCoinList: a list of strings, which are the contract_ticker_symbol of the currencies that has null contract_address bug. The occurrence in this list is the frequency bug appears for that currency
 * sampleCount: keep track of how many samples successfully received. Reset after 60 samples (roughly an hour)
 
-
+---
+### Unit Test
 The unit test tests three functions in the main module: *waitAMinute(starttime)*, *requestSample()*, and *drawHistogram(nullCoinList)*
 The test_functions are:
 * test_waitAMinute(self): test whether the function waitAMinute(starttime) actually waits for 60 seconds. By allowing 1 sec maximum execution time, waitAMinute(starttime) shohuld delay time between 60 seconds and 61 seconds
