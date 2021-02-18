@@ -18,7 +18,7 @@ python3 -m unittest
 * requestSample(): request an API from https://api.covalenthq.com/v1/pricing/tickers/
 * drawHistogram(nullCoinList): This function draws a histogram of the currencies that has null address bug and its frequency of that bug appears
 * alwaysLoop(): infinite loop. Each minute it requests API from https://api.covalenthq.com/v1/pricing/tickers/ if a response is success (200), it checks for which currency has the null address bug and append its symbol into the nullCoinList a currency may be appended multiple times if it has the bug in multiple responses at the end of each hour (60 samples), it draws a histogram 
-*main: call alwaysLoop()
+* main: call alwaysLoop()
     
 **variables:**
 * starttime: the time when this program starts running
