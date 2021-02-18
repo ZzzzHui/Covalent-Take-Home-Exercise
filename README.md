@@ -37,7 +37,7 @@ nullCoinList=['coin_a', 'coin_c', 'coin_b', 'coin_a', 'coin_b', 'coin_a', 'coin_
 ```
 the expected histogram should be drawn as 
 
-First Header | Second Header
+symbol | bug frequency
 ------------ | -------------
 'coin_a' | 4
 'coin_b' | 2
