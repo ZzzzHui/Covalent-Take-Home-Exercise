@@ -62,6 +62,6 @@ OK
 ```
 
 test output histogram:
-![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/test_output.png "test output histogram"){:height="50%" width="50%"}
+![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/test_output.png "test output histogram"){height="50%" width="50%"}
 expected histogram:
-![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/text_expected.png "expected histogram"){:height="50%" width="50%"}
+![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/text_expected.png "expected histogram"){height="50%" width="50%"}
