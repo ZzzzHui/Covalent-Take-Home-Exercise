@@ -35,7 +35,7 @@ The test_functions are:
 ```python
 nullCoinList=['coin_a', 'coin_c', 'coin_b', 'coin_a', 'coin_b', 'coin_a', 'coin_a']
 ```
-the expected histogram should be drawn as 
+the expected result should look like 
 
 symbol | bug frequency
 ------------ | -------------
@@ -43,3 +43,20 @@ symbol | bug frequency
 'coin_b' | 2
 'coin_c' | 1
 
+The test results:
+```bash
+$python -m unittest
+
+***testing drawHistogram function***
+.
+***testing requestSample function***
+status code: 200
+.
+***testing waitAMinute for 1 minute***
+.
+----------------------------------------------------------------------
+Ran 3 tests in 66.286s
+
+OK
+
+```
