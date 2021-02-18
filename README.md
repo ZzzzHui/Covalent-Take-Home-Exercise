@@ -33,5 +33,5 @@ The test_functions are:
 * test_requestSample(self): test whether function requestSample() can request successfully, including 200 and 503
 * test_drawHistogram(self): test whether histogram is draw correctly by function drawHistogram(nullCoinList). For an arbitrary nullCoinList, it compares the expected figure object and the figure object returned by drawHistogram(nullCoinList). 
 
-⋅⋅⋅For example: nullCoinList=['coin_a', 'coin_c', 'coin_b', 'coin_a', 'coin_b', 'coin_a', 'coin_a'].⋅⋅
+⋅⋅⋅For example: nullCoinList='coin_a', 'coin_c', 'coin_b', 'coin_a', 'coin_b', 'coin_a', 'coin_a'].⋅⋅
 ⋅⋅⋅the expected histogram should be drawn as {x:'coin_a', y:4;  x:'coin_b', y: 2;  x:'coin_c', y:1}.⋅⋅
