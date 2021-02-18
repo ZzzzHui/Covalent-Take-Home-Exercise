@@ -6,7 +6,7 @@ The main program requests an API from https://api.covalenthq.com/v1/pricing/tick
 At the end of each hour, it draws a histogram of the currencies that has null address bug and its frequency of that bug appears
 
 
-To run this code:
+To run and test this code:
 ```bash
 python3 main.py
 python3 -m unittest
@@ -25,3 +25,6 @@ python3 -m unittest
 * response: API response from https://api.covalenthq.com/v1/pricing/tickers/
 * nullCoinList: a list of strings, which are the contract_ticker_symbol of the currencies that has null contract_address bug. The occurrence in this list is the frequency bug appears for that currency
 * sampleCount: keep track of how many samples successfully received. Reset after 60 samples (roughly an hour)
+
+
+The unit test tests three functions in the main module: *waitAMinute(starttime)*, *requestSample()*, and *drawHistogram(nullCoinList)*
