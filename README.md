@@ -60,3 +60,6 @@ Ran 3 tests in 66.286s
 OK
 
 ```
+
+![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/test_output.png "test output histogram")
+![alt text](https://github.com/ZzzzHui/Covalent-Take-Home-Exercise/blob/main/text_expected.png "expected histogram")
