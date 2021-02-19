@@ -23,8 +23,8 @@ python3 -m unittest
 **variables:**
 * starttime: the time when this program starts running
 * response: API response from https://api.covalenthq.com/v1/pricing/tickers/
-* nullCoinList: a list of strings, which are the contract_ticker_symbol of the currencies that has null contract_address bug. The occurrence in this list is the frequency bug appears for that currency
-* sampleCount: keep track of how many samples successfully received. Reset after 60 samples (roughly an hour)
+* nullCoinList: a list of strings, which are the contract_ticker_symbol of the currencies that has null contract_address bug. The number of occurrence of a currency in this list is the frequency bug appears for that currency
+* sampleCount: keep track of how many samples successfully received. Reset after 60 samples (about an hour)
 
 ---
 ### Unit Test
