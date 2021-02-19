@@ -31,7 +31,7 @@ python3 -m unittest
 The unit test tests three functions in the main module: *waitAMinute(starttime)*, *requestSample()*, and *drawHistogram(nullCoinList)*
 
 The test_functions are:
-* test_waitAMinute(self): test whether the function waitAMinute(starttime) actually waits for 60 seconds. By allowing 1 sec maximum execution time, waitAMinute(starttime) shohuld delay time between 60 seconds and 61 seconds
+* test_waitAMinute(self): test whether the function waitAMinute(starttime) actually waits for 60 seconds. By allowing 1 sec maximum execution time, waitAMinute(starttime) should delay time between 60 seconds and 61 seconds
 * test_requestSample(self): test whether function requestSample() can request successfully, including 200 and 503
 * test_drawHistogram(self): test whether histogram is draw correctly by function drawHistogram(nullCoinList). For an arbitrary nullCoinList, it compares the expected figure object and the figure object returned by drawHistogram(nullCoinList). For example: 
 ```python
