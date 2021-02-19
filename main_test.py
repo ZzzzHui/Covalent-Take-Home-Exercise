@@ -10,7 +10,7 @@ this program tests the main module for the functions waitAMinute(starttime), req
 
 functions:
     test_waitAMinute(self): test whether the function waitAMinute(starttime) actually waits for 60 seconds.
-                        By allowing 1 sec maximum execution time, waitAMinute(starttime) shohuld delay time between 
+                        By allowing 1 sec maximum execution time, waitAMinute(starttime) should delay time between 
                         60 seconds and 61 seconds
     test_requestSample(self): test whether function requestSample() can request successfully, including 200 and 503
     test_drawHistogram(self): test whether histogram is draw correctly by function drawHistogram(nullCoinList).
